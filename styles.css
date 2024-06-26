@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #002f34;
+    padding: 1em 0;
+}
+.advertisement {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.advertisement p {
+    margin: 0;
+    font-weight:lighter;
+}
+.advertisement img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 1em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+.search-section {
+    text-align: center;
+    padding: 2em 1em;
+    background: url('search-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.search-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.search-form input {
+    padding: 0.5em;
+    width: 300px;
+    border:#0101015f
+    border-radius 4px 0 0 4px;
+}
+
+.search-form button {
+    padding: 0.5em 1em;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #e67e22;
+}
+
+.categories-section {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.categories-section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    text-align: center;
+    margin: 1em;
+    transition: transform 0.3s;
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.category h3 {
+    margin-top: 0.5em;
+}
+
+.category:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #002f34;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
